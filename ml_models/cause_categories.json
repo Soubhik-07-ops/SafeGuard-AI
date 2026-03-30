@@ -1,0 +1,64 @@
+{
+  "fire": [
+    "fire",
+    "flame",
+    "burn",
+    "ignition",
+    "combustion",
+    "blaze",
+    "electrical short"
+  ],
+  "fall": [
+    "fall",
+    "fell",
+    "height",
+    "slip",
+    "trip",
+    "collapse",
+    "dropped"
+  ],
+  "intrusion": [
+    "intruder",
+    "unauthorized",
+    "bypass",
+    "access",
+    "trespass",
+    "cloned",
+    "breach"
+  ],
+  "ppe_violation": [
+    "helmet",
+    "glove",
+    "vest",
+    "harness",
+    "goggles",
+    "ppe",
+    "protective",
+    "equipment"
+  ],
+  "chemical": [
+    "chemical",
+    "spill",
+    "toxic",
+    "hazardous",
+    "container",
+    "rupture",
+    "corrosive"
+  ],
+  "smoke": [
+    "smoke",
+    "smoking",
+    "fumes",
+    "inhalation",
+    "ventilation"
+  ],
+  "equipment": [
+    "equipment",
+    "machinery",
+    "motor",
+    "conveyor",
+    "panel",
+    "fault",
+    "malfunction"
+  ]
+}

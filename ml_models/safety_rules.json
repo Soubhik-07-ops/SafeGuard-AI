@@ -1,0 +1,42 @@
+[
+  {
+    "id": "RULE-01",
+    "rule": "All workers must wear helmets at all times on the production floor."
+  },
+  {
+    "id": "RULE-02",
+    "rule": "Safety harnesses must be worn when working at heights above 1.5 meters."
+  },
+  {
+    "id": "RULE-03",
+    "rule": "Fire extinguishers must remain accessible and pathways must not be blocked."
+  },
+  {
+    "id": "RULE-04",
+    "rule": "No unauthorized personnel are allowed in restricted machinery zones."
+  },
+  {
+    "id": "RULE-05",
+    "rule": "Chemical-resistant gloves and goggles must be worn when handling hazardous materials."
+  },
+  {
+    "id": "RULE-06",
+    "rule": "Smoking is strictly prohibited in all zones of the facility."
+  },
+  {
+    "id": "RULE-07",
+    "rule": "Fire-resistant protective vests must be worn in machinery and high-heat zones."
+  },
+  {
+    "id": "RULE-08",
+    "rule": "Pressurized containers must be stored away from heat sources and open flames."
+  },
+  {
+    "id": "RULE-09",
+    "rule": "Access control systems must be regularly audited and software kept up to date."
+  },
+  {
+    "id": "RULE-10",
+    "rule": "All workers must complete PPE training before entering the production floor."
+  }
+]
