@@ -1,5 +1,11 @@
 ﻿import streamlit as st
-import cv2
+try:
+    import cv2
+    CV2_AVAILABLE = True
+    CV2_ERROR = ""
+except Exception as e:
+    CV2_AVAILABLE = False
+    CV2_ERROR = str(e)
 import numpy as np
 import tempfile
 import sys
@@ -22,6 +28,16 @@ st.set_page_config(
 )
 
 inject_css()
+
+# If OpenCV is unavailable (common on Streamlit Cloud), show a clean message and stop.
+if not CV2_AVAILABLE:
+    st.error("OpenCV (cv2) is not available in this deployment.")
+    st.info(
+        "This usually happens on Streamlit Cloud due to missing system libraries (libGL). "
+        "Run locally, or deploy with Docker/Render where system packages can be installed."
+    )
+    st.code(f"cv2 import error: {CV2_ERROR}")
+    st.stop()
 
 # Sidebar
 st.sidebar.markdown(
