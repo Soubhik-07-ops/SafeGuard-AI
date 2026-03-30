@@ -21,18 +21,7 @@ PART-A/**/.venv/
 
 # ── Jupyter ─────────────────────────────
 .ipynb_checkpoints/
-*.ipynb
-!notebooks/*.ipynb
 
-# ── ML Model Weights (large files) ──────
-*.pt
-*.pth
-*.onnx
-*.pkl
-*.joblib
-cv_models/*.pt
-cv_models/*.onnx
-ml_models/*.pkl
 
 # ── Training Data & Outputs ─────────────
 PART-A/Smoke_detection/forest-fire/
