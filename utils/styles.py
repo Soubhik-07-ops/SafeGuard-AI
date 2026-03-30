@@ -199,6 +199,12 @@ section[data-testid="stSidebar"] div[style*="cursor:pointer"]:hover {
 /* Expander */
 .streamlit-expanderHeader { background: #141925 !important; border: 1px solid #1a2035 !important;
                               border-radius: 8px !important; color: #f0f2f8 !important; }
+/* Remove material icon text in expander headers */
+[data-testid="stExpander"] .material-icons,
+[data-testid="stExpander"] .material-symbols-outlined,
+[data-testid="stExpander"] .material-symbols-rounded {
+  display: none !important;
+}
 
 /* Metric */
 [data-testid="metric-container"] { background: #141925 !important;
